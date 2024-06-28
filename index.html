@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/LunTeam/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/LunTeam/assets/index-ea6c8664.css">
+    <link rel="stylesheet" href="/LunTeam/assets/index-024ecc32.css">
   </head>
   <body>
     
@@ -344,7 +344,77 @@
 </section>
 
       
-      
+      <section id="contact-us" class="contact-us">
+  <div class="container contact-us-section">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-wrap">
+      <div class="contact-us-content">
+        <p class="contact-us-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-us-form">
+          <label class="contact-us-label"
+            ><input
+              type="text"
+              name="user-name"
+              class="contact-us-input"
+              placeholder="Name"
+          /></label>
+          <label class="contact-us-label"
+            ><input
+              type="email"
+              name="email"
+              class="contact-us-input"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              placeholder="Email"
+          /></label>
+          <label class="contact-us-label"
+            ><input
+              type="tel"
+              name=""
+              class="contact-us-input"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              placeholder="+380"
+          /></label>
+          <label class="contact-us-label-area">
+            <textarea
+              name="user-comment"
+              class="contact-us-textarea"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+          <button type="submit" class="contact-us-btn">Send</button>
+        </form>
+      </div>
+      <div class="contact-us-picture">
+        <picture class="about-us-picture">
+          <source
+            media="(min-width: 1280px)"
+            srcset="/LunTeam/assets/contact_1x-min-cd79f0b9.jpg 1x, /LunTeam/assets/contact_2x-min-2f349a41.jpg 2x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/LunTeam/assets/contact-tabl_1x-min-e8105199.jpg 1x, /LunTeam/assets/contact-tabl_2x-min-fb8c4e48.jpg 2x"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/LunTeam/assets/contact-mob_1x-min-02dcbe5a.jpg 1x, /LunTeam/assets/contact-mob_2x-min-410d876a.jpg 2x"
+            type="image/jpg"
+          />
+          <img
+            src="/LunTeam/assets/contact-mob_1x-min-02dcbe5a.jpg"
+            alt="Image Of a WristWatch"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
     
 
